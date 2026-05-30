@@ -2,6 +2,8 @@
 
 This is the frontend code repository of an example website.  The style of this website is that of an after school activities booking site.
 
+For this, I used Vue.js to aid in the creation of the frontend, and Postman to test all REST API calls, which can be found in the 'Postman' directory.
+
 ## Recommended IDE Setup
 
 [VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
