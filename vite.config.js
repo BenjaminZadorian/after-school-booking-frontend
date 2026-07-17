@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  base: '/Full-Stack-Booking-Site-Frontend/',
+  base: '/after-school-booking-frontend/',
   build: {
     outDir: 'docs'
   },
