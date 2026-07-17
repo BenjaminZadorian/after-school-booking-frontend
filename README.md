@@ -1,50 +1,48 @@
-# Full Stack Coursework - Frontend
+# After-School Activities Booking Site — Frontend
 
-This is the frontend code repository of an example website.  The style of this website is that of an after school activities booking site.
+Frontend for a full-stack booking platform that lets parents/students browse and book after-school activities. Built as a team project at Middlesex University.
 
-For this, I used Vue.js to aid in the creation of the frontend, and Postman to test all REST API calls, which can be found in the 'Postman' directory.
+🔗 **Backend repo:** [FullStackCourseWork-Backend](https://github.com/BenjaminZadorian/FullStackCourseWork-Backend)
+🔗 **Live demo:** [https://fullstackcoursework-backend.onrender.com]
 
-## Recommended IDE Setup
+![screenshot](DemoImage.png)
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Recommended Browser Setup
+## Overview
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+This is the client application for the booking platform, built with Vue.js. It communicates with the [Node.js backend](https://github.com/BenjaminZadorian/FullStackCourseWork-Backend) to display activities and manage bookings.
 
-## Customize configuration
+## Tech Stack
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- **Framework:** Vue.js
+- **Styling:** Bootstrap
+- **HTTP client:** fetch
+- **Hosting:** Render.com
 
-### Github Pages Link
+## Features
 
-[github pages hosted link](https://benjaminzadorian.github.io/FullStackCourseWork-Frontend/)
+- Browse and filter available activities
+- User registration/login
+- Book and view upcoming bookings
+- Responsive layout for mobile/desktop
 
-### Github Repo Link
-[Github repo link](https://github.com/BenjaminZadorian/FullStackCourseWork-Frontend)
 
-## Project Setup
+## Getting Started
 
-```sh
+### Prerequisites
+- Node.js (v23+)
+- The [backend API](https://github.com/BenjaminZadorian/FullStackCourseWork-Backend) running (locally or deployed)
+
+### Installation
+
+```bash
+git clone https://github.com/BenjaminZadorian/FullStackCourseWork-Frontend.git
+cd FullStackCourseWork-Frontend
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
 npm run build
 ```
-# Postman API Collection
-Open Postman -> Import -> Choose `Postman/FullStackCoursework_API.postman_collection.json`
 
+## Deployment
+
+Deployed on [Render.com](https://render.com).
