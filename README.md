@@ -5,7 +5,7 @@ Frontend for a full-stack booking platform that lets parents/students browse and
 🔗 **Backend repo:** [FullStackCourseWork-Backend](https://github.com/BenjaminZadorian/FullStackCourseWork-Backend)
 🔗 **Live demo:** [https://fullstackcoursework-backend.onrender.com]
 
-![screenshot](DemoImage.png)
+![DemoImage.PNG](DemoImage.PNG)
 
 ---
 
