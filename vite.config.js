@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  base: '/FullStackCourseWork-Frontend/',
+  base: '/Full-Stack-Booking-Site-Frontend/',
   build: {
     outDir: 'docs'
   },
